@@ -1,0 +1,233 @@
+@media (min-width: 992px) {
+    .page .container-header {
+        box-shadow: 1px 7px 20px rgba(0, 0, 0, 0.15);
+    }
+
+    .header-position {
+        width: 100%;
+        background-color: #fff;
+        box-shadow: 0px 1px 2px #e1e1e1;
+    }
+
+    .logo {
+        position: absolute;
+        display: inline-block;
+        width: 110px;
+        z-index: 10;
+    }
+
+    .logo a {
+        display: block;
+    }
+
+    .logo a img {
+        box-shadow: 2px 11px 16px rgba(0, 0, 0, 0.8);
+    }
+
+    .container-header.type1 .logo {
+        top: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .menu {
+        padding: 15px 0;
+    }
+
+    .body-content {
+        padding: 25px 0px
+    }
+
+    .mega-dropdown-menu .col-lg-4, .mega-dropdown-menu .col-lg-3, .mega-dropdown-menu .col-lg-6 {
+        float: left
+    }
+
+    .top-nav {
+        background-color: #1a265c;
+        height: 40px;
+    }
+
+    .top-nav .navbar-light .navbar-nav .nav-item {
+        border-right: 1px solid
+    }
+}
+
+@media (max-width: 991px) {
+    .logo {
+        float: left;
+        width: 150px;
+        position: absolute;
+        top: 6px;
+        left: 15px;
+        z-index: 9999;
+    }
+
+    .logo a {
+        display: block;
+    }
+
+    .logo img {
+        max-width: 100%;
+    }
+
+    .mobile-menu {
+        margin-top: -15px;
+    }
+
+    .container-header.type1 .header-middle .container {
+        position: relative;
+    }
+
+    .header-middle {
+        background: #f5f5f5;
+    }
+
+    .body-content {
+        padding: 20px 0px
+    }
+
+    .menu .nav > li > a {
+        display: block;
+        border: 1px solid #e1e1e1;
+        padding: 8px;
+    }
+
+    .mobile-logo img {
+        max-width: 100%
+    }
+
+    .top-nav .navbar-light {
+        width: 100%;
+    }
+
+    .top-nav {
+        background: #001833;
+    }
+
+    .top-nav .navbar-light .navbar-toggler:not(:disabled):not(.disabled) {
+        background: #444;
+        width: 36px;
+        height: 30px;
+        padding: 0px;
+        margin: 5px 0px;
+        border-radius: 2px;
+    }
+
+    .top-nav .navbar-light {
+        padding: 0px 16px;
+        float: none;
+    }
+
+    .top-nav ul .top-search {
+        display: none;
+    }
+
+
+}
+
+
+@media (min-width: 768px) {
+    .exe-leader {
+        width: 496px;
+        float: left;
+        height: 140px;
+        overflow: hidden;
+    }
+
+    .listview-item.big.faculty {
+        width: 540px;
+        float: left;
+        height: 180px;
+        overflow: hidden;
+    }
+
+    .listview-item.big .pull-left {
+        width: 150px;
+        min-height: 130px;
+    }
+
+    .listview-item.big.faculty .pull-left {
+        height: 158px;
+        overflow: hidden;
+        float: left;
+    }
+
+    .listview-item.big.faculty .listview-item-body {
+        width: 350px;
+        float: left;
+    }
+}
+
+
+@media (min-width: 1200px) {
+
+    .container-header.type1 .menu .nav > li:nth-child(5) {
+
+    }
+
+    .container-header.type1 .menu .nav > li:nth-child(6) {
+
+    }
+
+    .menu .nav > li > a {
+        font-size: 14px;
+        font-weight: 600;
+    }
+}
+
+@media (max-width: 1199px) {
+    .menu .nav > li > a {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 767px) {
+    .footer, .copyright {
+        text-align: center;
+        font-size: 13px
+    }
+
+    .social-box ul {
+        float: none;
+        margin: 5px auto;
+        display: inline-block;
+    }
+
+    .exe-leader, .listview-item.big.faculty {
+        text-align: center;
+    }
+
+    .pull-left {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 991px) {
+
+    ul.nav.nav-tabs li {
+        display: block;
+        width: 100%;
+        margin: 2px 0px;
+    }
+
+    ul.nav.nav-tabs li a {
+        display: block;
+        border-radius: 0px;
+        height: auto;
+    }
+
+    ul.nav.nav-tabs li a br {
+        display: none
+    }
+
+}
+
+@media (max-width: 480px) {
+    .bot .listview-item.big .pull-left {
+        clear: both;
+        float: none;
+        margin: 10px auto;
+    }
+}
